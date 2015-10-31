@@ -63,12 +63,19 @@
 
 
 
-
-#findfriend {
+.links {
 	margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
 	font-size: large;
-	display:block;
+	/*display:block;*/
 	width: 30%;
+}
+
+.linksbar {
+    margin-right: auto;
+    margin-left: auto;
+    display:inline;
 }
 
 #logo {
@@ -77,4 +84,17 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
+}
+
+
+.icon{
+    font-size:xx-large;
+}
+
+#fb{
+    
+}
+
+#email{
+    
 }
