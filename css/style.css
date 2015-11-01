@@ -7,7 +7,7 @@
 .center {
 
     margin: auto;
-    margin-top: 100px;
+    margin-top: 5%;
     width: 400px;
     /*border:2px solid #cccccc;*/
     padding: 10px;
@@ -25,9 +25,9 @@
 	font-weight: 400;
 	font-size: xx-large;
 
-	margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+	/*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: %;*/
 }
 
 
@@ -35,17 +35,17 @@
 	font-weight: 300;
 	font-size: large;
 
-	margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+	/*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 40%;*/
 }
 
 
 .footer {
 	font-weight: 400;
-	font-size: small;
+	font-size: 1em;
 
-	text-align: center;
+	/*text-align: center;*/
 
 	margin-top: 10px;
 	margin-left: auto;
@@ -74,15 +74,15 @@
 
 .linksbar {
 
-    width: 50%;
+    /*width: 50%;*/
     margin: 20px auto;
 }
 
 #logo {
 	display: block;
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 90%;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
 	margin-top: 20px;
 }
 
@@ -102,4 +102,70 @@
 
 #email{
     
+}
+
+.btn {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #a7bac7;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #bfcdd6;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    .center {
+        margin-top: 5%;
+        width: 90%;
+    }
+
+    .title {
+        font-size: 2em;
+        width: 100%;
+    }
+
+
+    .subtitle {
+        font-weight: 300;
+        font-size: large;
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .footer {
+        font-weight: 400;
+        font-size: 1em;
+
+        /*text-align: center;*/
+
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .linksbar {
+
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .btn {
+      width: 50%;
+    }
+
+    .btn:hover {
+      background: #3cb0fd;
+      text-decoration: none;
+    }
+
 }
