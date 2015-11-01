@@ -22,21 +22,23 @@
 }
 
 .title {
+    text-align: center;
 	font-weight: 400;
-	font-size: xx-large;
+	font-size: 5em;
 
-	/*margin-left: auto;*/
-    /*margin-right: auto;*/
+	margin-left: auto;
+    margin-right: auto;
     /*width: %;*/
 }
 
 
 .subtitle {
+    text-align: center;
 	font-weight: 300;
 	font-size: large;
 
-	/*margin-left: auto;*/
-    /*margin-right: auto;*/
+	margin-left: auto;
+    margin-right: auto;
     /*width: 40%;*/
 }
 
@@ -75,25 +77,30 @@
 .linksbar {
 
     /*width: 50%;*/
+    text-align: center;
     margin: 20px auto;
 }
 
 #logo {
+    text-align: center;
 	display: block;
-	width: 90%;
+	width: 60%;
 	/*margin-left: auto;*/
 	/*margin-right: auto;*/
 	margin-top: 20px;
 }
 
 
-.icon{
+.icon a{
     font-size:xx-large;
+    text-decoration: none;
+    color: black;
 }
 
 
 #about {
     margin-top: 50px;
+    text-align: center;
 }
 
 #fb{
@@ -107,9 +114,9 @@
 .btn {
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 19px;
   background: #a7bac7;
-  padding: 10px 20px 10px 20px;
+  padding: 8px 20px 8px 20px;
   text-decoration: none;
 }
 
@@ -126,8 +133,14 @@
     }
 
     .title {
-        font-size: 2em;
+        text-align: center;
+        display: block;
+        font-size: 3em;
         width: 100%;
+    }
+
+    #about {
+        text-align: center;
     }
 
 
@@ -135,6 +148,7 @@
         font-weight: 300;
         font-size: large;
 
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
@@ -160,7 +174,7 @@
     }
 
     .btn {
-      width: 50%;
+      width: 45%;
     }
 
     .btn:hover {
