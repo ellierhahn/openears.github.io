@@ -88,6 +88,13 @@
     margin: 20px auto;
 }
 
+.faq_q {
+    cursor: pointer;
+}
+.faq_q:hover {
+    color: gray;
+}
+
 #logo {
     text-align: center;
 	display: block;
