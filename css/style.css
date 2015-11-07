@@ -13,6 +13,13 @@
     padding: 10px;
 }
 
+.headertitle {
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .center a{
 	color: gray;
 }
