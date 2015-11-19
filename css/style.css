@@ -4,10 +4,31 @@
     margin-right: auto;
 }
 
+.header-container {
+    position: fixed;
+    top: 0;
+    background-color: #0097A7;
+    width: 100%;
+    z-index: 2000;
+    height: 40px;
+}
+
+.header-button {
+    top: 0;
+    margin-left: 10px;
+    height:100%;
+    color: white;
+    font-size: 2em;
+}
+
+.header-button:hover {
+    color: #AAAAAA;
+}
+
 .center {
 
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 400px;
     /*border:2px solid #cccccc;*/
     padding: 10px;
@@ -102,7 +123,7 @@
 #logo {
     text-align: center;
 	display: block;
-	width: 60%;
+	width: 100%;
 	/*margin-left: auto;*/
 	/*margin-right: auto;*/
 	margin-top: 20px;
@@ -130,11 +151,12 @@
 }
 
 .btn {
+  width: 200px;
   font-family: Arial;
   color: #ffffff;
   font-size: 19px;
   background: #a7bac7;
-  padding: 8px 20px 8px 20px;
+  padding: 5px 5px 5px 5px;
   text-decoration: none;
 }
 
@@ -193,6 +215,7 @@
 
     .btn {
       width: 45%;
+      margin: 5px;
     }
 
     .btn:hover {
