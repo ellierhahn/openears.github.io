@@ -42,11 +42,15 @@
 
 
 .center a{
-	color: gray;
+	color: white;
 }
 .center a:hover{
-	/*text-decoration: none;*/
-	color: lightgray;
+    /*text-decoration: none;*/
+    color: white;
+}
+.center a:visited{
+    /*text-decoration: none;*/
+    color: white;
 }
 
 .title {
@@ -155,15 +159,17 @@
   font-family: Arial;
   color: #ffffff;
   font-size: 19px;
-  background: #a7bac7;
+  background: #0097A7;
   padding: 5px 5px 5px 5px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #bfcdd6;
+  background: #449AAA;
   text-decoration: none;
+  color:white;
 }
+
 
 
 @media only screen and (max-device-width: 480px) {
@@ -219,7 +225,7 @@
     }
 
     .btn:hover {
-      background: #3cb0fd;
+      background: #449AAA;
       text-decoration: none;
     }
 
