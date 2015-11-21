@@ -10,7 +10,7 @@
     background-color: #0097A7;
     width: 100%;
     z-index: 2000;
-    height: 40px;
+    height: 30px;
 }
 
 .header-button {
@@ -18,7 +18,7 @@
     margin-left: 10px;
     height:100%;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .header-button:hover {
