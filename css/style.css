@@ -9,6 +9,10 @@
     height: 100vh;
 }
 
+#resources {
+    width: 80vh;
+}
+
 .header-container {
     position: fixed;
     top: 0;
